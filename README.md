@@ -14,3 +14,9 @@ Please install and activate the theme by doing the following:
 2. Activate the theme.
 3. Visit settings pages and configure theme.
 4. You are done!
+
+## Notes ##
+
+The javascript functionality to hide/show the branding has been disabled by hiding the relevant toolbar button. This functionality could be reinstated by replacing the javascript file that provides it with an amended one, but would not be for the technically faint-hearted.
+
+To do so, you would use `wp_dequeue_script()` to remove the existing javascripts, the enqueue your own versions of them. See the function `get_javascript()` in the file `class_commentpress_display.php` included in the Commentpress plugin.
