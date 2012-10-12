@@ -11,9 +11,10 @@ Please install and activate the theme by doing the following:
 
 1. Unzip the .zip file and, if needed, rename the enclosing folder so that the theme's files are located directly inside `/wp-content/themes/commentpress-child-alt`.
 2. NOTE: you may need to edit the line in `style.css` that says `Template: commentpress` if your parent Commentpress theme does not live in a folder called `commentpress`. If it does not, change this to `Template: YOURFOLDERNAME`.
-2. Activate the theme.
-3. Visit settings pages and configure theme.
-4. You are done!
+3. You may also need to edit the path to the Commentpress stylesheet in `style.css` as per step 2 above.
+4. Activate the theme.
+5. Visit settings pages and configure theme.
+6. You are done!
 
 ## Notes ##
 
